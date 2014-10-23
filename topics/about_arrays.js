@@ -31,7 +31,6 @@ test("stack methods", function() {
     equal("second", stack.pop(), 'what will be the first value popped off the stack?');
     equal("first", stack.pop(), 'what will be the second value popped off the stack?');
 });
-
 test("queue methods", function() {
     var queue = [];
     queue.push("first");
